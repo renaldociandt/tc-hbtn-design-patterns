@@ -1,4 +1,4 @@
-package personagem;
+
 
 public enum TipoPersonagem {
 

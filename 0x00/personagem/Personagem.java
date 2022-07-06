@@ -1,4 +1,4 @@
-package personagem;
+
 
 import lombok.Data;
 
