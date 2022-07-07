@@ -9,7 +9,7 @@ public class BebidaComLeite extends BebidaDecorator{
 
     @Override
     public List<String> obterIngredientes() {
-        List<String> nomeBebidas = new ArrayList<>();
+        List<String> nomeBebidas = super.obterIngredientes();
         nomeBebidas.add("leite");
         return nomeBebidas;
 
@@ -17,6 +17,6 @@ public class BebidaComLeite extends BebidaDecorator{
 
     @Override
     public double obterPreco() {
-        return 3.2;
+        return super.obterPreco() + 3.2;
     }
 }
