@@ -1,4 +1,4 @@
-
+package lanchonete;
 
 public enum TipoBebida {
 
