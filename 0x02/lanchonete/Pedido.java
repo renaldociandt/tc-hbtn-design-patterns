@@ -29,12 +29,12 @@ public class Pedido {
     @Override
     public String toString() {
 
-        String foraDaCaixa = "\tFora da caixa:\n";
+        String foraDaCaixa = "\tFora da Caixa:\n";
         for (ItemPedido item : itensForaCaixa) {
             foraDaCaixa += String.format("\t\t - %s %s\n " , item.getTipo(), item.getNome());
 
         }
-        String dentroDacaixa = "\tDentro da caixa:\n";
+        String dentroDacaixa = "\tDentro da Caixa:\n";
         for (ItemPedido item : itensDentroCaixa) {
             dentroDacaixa += String.format("\t\t - %s %s\n" , item.getTipo(), item.getNome());
 
