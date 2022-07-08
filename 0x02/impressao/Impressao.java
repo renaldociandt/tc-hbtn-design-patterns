@@ -2,11 +2,12 @@
 
 public class Impressao {
 
-
     private int paginasTotais, paginasColoridas;
     private boolean ehFrenteVerso;
-    private double valorColoridasFrenteVerso, valorPretoBrancoFrenteVerso, valorColoridasFrenteApenas, valorPretoBrancoFrenteApenas;
-
+    private double valorColoridasFrenteVerso;
+    private double valorPretoBrancoFrenteVerso;
+    private double valorColoridasFrenteApenas;
+    private double valorPretoBrancoFrenteApenas;
 
     public Impressao(int paginasTotais, int paginasColoridas, boolean ehFrenteVerso, double valorColoridasFrenteVerso, double valorPretoBrancoFrenteVerso, double valorColoridasFrenteApenas, double valorPretoBrancoFrenteApenas) {
         this.paginasTotais = paginasTotais;
@@ -27,6 +28,7 @@ public class Impressao {
 
     }
 
+    @Override
     public String toString() {
 
        return String.format("total de paginas: %d, total coloridas: %d, total preto e branco: %d, %s. total: R$ %.2f",
