@@ -1,4 +1,4 @@
-package impressao;
+
 
 public enum TamanhoImpressao {
 
