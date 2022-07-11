@@ -15,7 +15,7 @@ public class MediaPlayerAdapter implements MediaPlayer{
         if (tipoMedia == TipoMedia.MP4){
             advancedMediaPlayer.reproduzirVlc(nome);
         }
-        System.out.println();
+
 
     }
 
