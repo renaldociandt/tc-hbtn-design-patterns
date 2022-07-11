@@ -1,4 +1,4 @@
-
+package naves;
 
 public class CanhaoExtraDecorator extends NaveEspacialDecorator{
 

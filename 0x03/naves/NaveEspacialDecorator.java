@@ -1,4 +1,4 @@
-
+package naves;
 
 public class NaveEspacialDecorator extends NaveEspacial{
 
