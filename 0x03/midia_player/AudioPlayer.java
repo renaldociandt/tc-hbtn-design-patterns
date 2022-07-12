@@ -1,4 +1,4 @@
-
+package midia_player;
 
 public class AudioPlayer implements MediaPlayer {
 

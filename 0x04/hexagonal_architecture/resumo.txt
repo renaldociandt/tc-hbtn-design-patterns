@@ -1,0 +1,16 @@
+﻿    • O que é Arquitetura Hexagonal e por quem ela foi criada ?
+
+Uma Arquitetura Hexagonal divide as classes de um sistema em dois grupos principais:
+Classes de domínio, isto é, diretamente relacionadas com o negócio do sistema.
+Classes relacionadas com infraestrutura, tecnologias e responsáveis pela integração com sistemas externos (tais como bancos de dados).
+
+    • Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
+Em uma arquitetura hexagonal, a comunicação entre as classes dos dois grupos é mediada por adaptadores, isto é, por classes que implementam o padrão de projeto de mesmo nome que estudamos no Capítulo 6. Iremos explicar melhor o papel dos adaptadores logo a seguir.
+    • Quais as diferenças entre Arquitetura Hexagonal e Clean Architecture ?
+Em uma Arquitetura Hexagonal, o termo porta designa as interfaces usadas para comunicação com as classes de domínio (veja que interface aqui significa interface de programação; por exemplo, uma interface de Java).
+Existem dois tipos de portas:
+    • Portas de entrada: são interfaces usadas para comunicação de fora para dentro, isto é, quando uma classe externa precisa chamar um método de uma classe de domínio. Logo, essas portas declaram os serviços providos pelo sistema, isto é, serviços que o sistema oferece para o mundo exterior.
+    • Portas de saída: são interfaces usadas para comunicação de dentro para fora, isto é, quando uma classe de domínio precisa chamar um método de uma classe externa. Logo, essas portas declaram os serviços requeridos pelo sistema, isto é, serviços do mundo exterior que são necessários para o funcionamento do sistema.
+
+    • Na sua opinião, a Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto ? Quais informações devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto ?
+

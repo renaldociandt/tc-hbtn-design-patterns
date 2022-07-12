@@ -1,4 +1,4 @@
-
+package midia_player;
 
 public interface AdvancedMediaPlayer {
     void reproduzirVlc(String nome);
