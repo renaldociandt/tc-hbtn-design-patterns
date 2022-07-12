@@ -9,7 +9,7 @@ public class AudioPlayer implements MediaPlayer {
             System.out.println("Reproduzindo MP3: " + nome);
         } else {
 
-            MediaPlayerAdapter mediaPlayerAdapter = new MediaPlayerAdapter(tipoMedia);
+            //MediaPlayerAdapter mediaPlayerAdapter = new MediaPlayerAdapter(tipoMedia);
             System.out.println("Reproduzindo " + tipoMedia + ": " + nome);
         }
 
